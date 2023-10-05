@@ -1,0 +1,40 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	//kullanıcıdan alınan kucuk ve buyuk 
+	//sayılar arasındaki kac tane tek sayı var
+
+
+	
+	int sayi1;
+	int sayi2;
+	
+	cout<<"sayi1 giriniz:"<<endl;
+	cin>>sayi1;
+	
+	cout<<"sayi2 giriniz:"<<endl;
+	cin>>sayi2;
+	
+	int adet=0;
+	
+	
+	for (int i=sayi1; i<sayi2 ; i++)
+	{
+		
+      if(i%2==1)
+      adet++;
+		
+		
+		
+	}
+	cout<<"Tek Sayi:"<<adet<<endl;
+	
+	
+	
+	system("pause");
+	return 0;
+	
+}
